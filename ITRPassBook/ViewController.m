@@ -30,7 +30,7 @@
 
 - (IBAction)addPassButtonPressed:(id)sender {
     
-    //load  coupon.pkpass from resource bundle
+    //load  boardingPass.pkpass from resource bundle
     NSString *passPath = [[NSBundle mainBundle] pathForResource:@"boardingPass" ofType:@"pkpass"];
     NSData *data = [NSData dataWithContentsOfFile:passPath];
     NSError *error;
