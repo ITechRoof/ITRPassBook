@@ -13,7 +13,7 @@
 		839E42251BFC7C14007AAC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839E42231BFC7C14007AAC64 /* Main.storyboard */; };
 		839E42271BFC7C14007AAC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839E42261BFC7C14007AAC64 /* Assets.xcassets */; };
 		839E42351BFC7C8B007AAC64 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E42341BFC7C8B007AAC64 /* PassKit.framework */; };
-		A6AA2B1A1C23C0A5009087EC /* boardingPass.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = A6AA2B191C23C0A5009087EC /* boardingPass.pkpass */; };
+		A6AA2B1C1C23C498009087EC /* BoardingPass.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = A6AA2B1B1C23C498009087EC /* BoardingPass.pkpass */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		839E422B1BFC7C14007AAC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839E42341BFC7C8B007AAC64 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		83AFBD051C1C945000C35DEF /* ITRPassBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ITRPassBook.entitlements; sourceTree = "<group>"; };
-		A6AA2B191C23C0A5009087EC /* boardingPass.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = boardingPass.pkpass; sourceTree = "<group>"; };
+		A6AA2B1B1C23C498009087EC /* BoardingPass.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = BoardingPass.pkpass; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 		839E420E1BFC7C14007AAC64 = {
 			isa = PBXGroup;
 			children = (
-				A6AA2B191C23C0A5009087EC /* boardingPass.pkpass */,
+				A6AA2B1B1C23C498009087EC /* BoardingPass.pkpass */,
 				839E42341BFC7C8B007AAC64 /* PassKit.framework */,
 				839E42191BFC7C14007AAC64 /* ITRPassBook */,
 				839E42181BFC7C14007AAC64 /* Products */,
@@ -149,8 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				839E42271BFC7C14007AAC64 /* Assets.xcassets in Resources */,
-				A6AA2B1A1C23C0A5009087EC /* boardingPass.pkpass in Resources */,
 				839E42251BFC7C14007AAC64 /* Main.storyboard in Resources */,
+				A6AA2B1C1C23C498009087EC /* BoardingPass.pkpass in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
