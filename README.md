@@ -6,11 +6,9 @@ Passbook/ Wallet demo
 
 Kiruthika
 
-https://github.com/ITechRoof
-
-kirthi.shalom@gmail.com
-
-https://itechroof.wordpress.com
+- https://github.com/ITechRoof
+- kirthi.shalom@gmail.com
+- https://itechroof.wordpress.com
 
 
 # License
