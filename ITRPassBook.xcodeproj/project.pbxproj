@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839E421C1BFC7C14007AAC64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E421B1BFC7C14007AAC64 /* main.m */; };
+		839E421F1BFC7C14007AAC64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E421E1BFC7C14007AAC64 /* AppDelegate.m */; };
+		839E42221BFC7C14007AAC64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E42211BFC7C14007AAC64 /* ViewController.m */; };
+		839E42251BFC7C14007AAC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839E42231BFC7C14007AAC64 /* Main.storyboard */; };
+		839E42271BFC7C14007AAC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839E42261BFC7C14007AAC64 /* Assets.xcassets */; };
+		839E42351BFC7C8B007AAC64 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839E42341BFC7C8B007AAC64 /* PassKit.framework */; };
+		A6AA2B1A1C23C0A5009087EC /* boardingPass.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = A6AA2B191C23C0A5009087EC /* boardingPass.pkpass */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		839E42171BFC7C14007AAC64 /* ITRPassBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITRPassBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839E421B1BFC7C14007AAC64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		839E421D1BFC7C14007AAC64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		839E421E1BFC7C14007AAC64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		839E42201BFC7C14007AAC64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		839E42211BFC7C14007AAC64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		839E42241BFC7C14007AAC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839E42261BFC7C14007AAC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839E422B1BFC7C14007AAC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839E42341BFC7C8B007AAC64 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		83AFBD051C1C945000C35DEF /* ITRPassBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ITRPassBook.entitlements; sourceTree = "<group>"; };
+		A6AA2B191C23C0A5009087EC /* boardingPass.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = boardingPass.pkpass; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839E42141BFC7C14007AAC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E42351BFC7C8B007AAC64 /* PassKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839E420E1BFC7C14007AAC64 = {
+			isa = PBXGroup;
+			children = (
+				A6AA2B191C23C0A5009087EC /* boardingPass.pkpass */,
+				839E42341BFC7C8B007AAC64 /* PassKit.framework */,
+				839E42191BFC7C14007AAC64 /* ITRPassBook */,
+				839E42181BFC7C14007AAC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839E42181BFC7C14007AAC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839E42171BFC7C14007AAC64 /* ITRPassBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839E42191BFC7C14007AAC64 /* ITRPassBook */ = {
+			isa = PBXGroup;
+			children = (
+				83AFBD051C1C945000C35DEF /* ITRPassBook.entitlements */,
+				839E421D1BFC7C14007AAC64 /* AppDelegate.h */,
+				839E421E1BFC7C14007AAC64 /* AppDelegate.m */,
+				839E42201BFC7C14007AAC64 /* ViewController.h */,
+				839E42211BFC7C14007AAC64 /* ViewController.m */,
+				839E42231BFC7C14007AAC64 /* Main.storyboard */,
+				839E42261BFC7C14007AAC64 /* Assets.xcassets */,
+				839E422B1BFC7C14007AAC64 /* Info.plist */,
+				839E421A1BFC7C14007AAC64 /* Supporting Files */,
+			);
+			path = ITRPassBook;
+			sourceTree = "<group>";
+		};
+		839E421A1BFC7C14007AAC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839E421B1BFC7C14007AAC64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839E42161BFC7C14007AAC64 /* ITRPassBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839E422E1BFC7C14007AAC64 /* Build configuration list for PBXNativeTarget "ITRPassBook" */;
+			buildPhases = (
+				839E42131BFC7C14007AAC64 /* Sources */,
+				839E42141BFC7C14007AAC64 /* Frameworks */,
+				839E42151BFC7C14007AAC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITRPassBook;
+			productName = ITRPassBook;
+			productReference = 839E42171BFC7C14007AAC64 /* ITRPassBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839E420F1BFC7C14007AAC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "kiruthika selvavinayagam";
+				TargetAttributes = {
+					839E42161BFC7C14007AAC64 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5U487867ZU;
+						SystemCapabilities = {
+							com.apple.Wallet = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 839E42121BFC7C14007AAC64 /* Build configuration list for PBXProject "ITRPassBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839E420E1BFC7C14007AAC64;
+			productRefGroup = 839E42181BFC7C14007AAC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839E42161BFC7C14007AAC64 /* ITRPassBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839E42151BFC7C14007AAC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E42271BFC7C14007AAC64 /* Assets.xcassets in Resources */,
+				A6AA2B1A1C23C0A5009087EC /* boardingPass.pkpass in Resources */,
+				839E42251BFC7C14007AAC64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839E42131BFC7C14007AAC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E42221BFC7C14007AAC64 /* ViewController.m in Sources */,
+				839E421F1BFC7C14007AAC64 /* AppDelegate.m in Sources */,
+				839E421C1BFC7C14007AAC64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		839E42231BFC7C14007AAC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839E42241BFC7C14007AAC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839E422C1BFC7C14007AAC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		839E422D1BFC7C14007AAC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839E422F1BFC7C14007AAC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ITRPassBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITR.ITRPassBook.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		839E42301BFC7C14007AAC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ITRPassBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITR.ITRPassBook.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839E42121BFC7C14007AAC64 /* Build configuration list for PBXProject "ITRPassBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E422C1BFC7C14007AAC64 /* Debug */,
+				839E422D1BFC7C14007AAC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839E422E1BFC7C14007AAC64 /* Build configuration list for PBXNativeTarget "ITRPassBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E422F1BFC7C14007AAC64 /* Debug */,
+				839E42301BFC7C14007AAC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839E420F1BFC7C14007AAC64 /* Project object */;
+}
