@@ -12,6 +12,7 @@
 @interface ViewController ()
 {
     PKPassLibrary *_passLib;
+    PKPass *pass;
 }
 
 @end
@@ -35,7 +36,7 @@
     NSData *data = [NSData dataWithContentsOfFile:passPath];
     NSError *error;
     
-    PKPass *pass = [[PKPass alloc] initWithData:data error:&error];
+    pass = [[PKPass alloc] initWithData:data error:&error];
     
     if (error!=nil) {
         [[[UIAlertView alloc] initWithTitle:@"Passes error"
@@ -49,10 +50,10 @@
     
     if(pass){
         //init a pass library
-        PKPassLibrary* passLib = [[PKPassLibrary alloc] init];
+        _passLib = [[PKPassLibrary alloc] init];
         
         //check if pass library contains this pass already
-        if([passLib containsPass:pass]) {
+        if([_passLib containsPass:pass]) {
             
             //pass already exists in library, show an error message
             UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Pass Exists" message:@"The pass you are trying to add to Passbook is already present." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
@@ -73,8 +74,10 @@
 -(void)addPassesViewControllerDidFinish:(PKAddPassesViewController *)controller {
    
     [controller dismissViewControllerAnimated:YES completion:^{
-        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Pass Added" message:@"Your pass added to wallet successfully." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alertView show];
+        if([_passLib containsPass:pass]) {
+            UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Pass Added" message:@"Your pass added to wallet successfully." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertView show];
+        }
     }];
 
 }
