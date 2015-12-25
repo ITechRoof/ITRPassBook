@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <PassKit/PassKit.h>
 
-@interface ViewController ()
+@interface ViewController ()<PKAddPassesViewControllerDelegate>
 {
     PKPassLibrary *_passLib;
     PKPass *pass;
