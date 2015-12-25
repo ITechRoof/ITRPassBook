@@ -22,14 +22,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    if(![PKPassLibrary isPassLibraryAvailable]) {
-        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Pass Library Error" message:@"The Pass Library is not available." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alertView show];
-    }
-    _passLib = [[PKPassLibrary alloc] init];
+
 }
 
 - (IBAction)addPassButtonPressed:(id)sender {
+    
+    if(![PKPassLibrary isPassLibraryAvailable]) {
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Pass Library Error" message:@"The Pass Library is not available." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+        return;
+    }
     
     //load  boardingPass.pkpass from resource bundle
     NSString *passPath = [[NSBundle mainBundle] pathForResource:@"BoardingPass" ofType:@"pkpass"];
